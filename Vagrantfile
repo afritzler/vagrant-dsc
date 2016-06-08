@@ -90,6 +90,8 @@ sudo sed -i 's/rpc_address:.*$/rpc_address: %s/'       /etc/cassandra/cassandra.
 # start DSC
 echo "Starting DataStax Community Edition"
 sudo service cassandra start
+echo "stomp_interface: 127.0.0.1" | sudo tee -a /var/lib/datastax-agent/conf/address.yaml
+sudo service datastax-agent start
 sudo service opscenterd start
 
 echo "Vagrant provisioning complete"

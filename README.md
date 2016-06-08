@@ -1,4 +1,4 @@
-# vagrant-dsc
+# vagrant-dsc-cassandra
 
 Single node Cassandra 2.2.6 (Datastax Community Edition) with OpsCenter and other swag.
 
