@@ -4,7 +4,7 @@ Single node Cassandra 2.2.6 (Datastax Community Edition) with OpsCenter and othe
 
 # Prerequisites
 
-The only thing you will need is [Vagrant](https://www.vagrantup.com).
+The only thing you will need is [VirtualBox](https://www.virtualbox.org) and [Vagrant](https://www.vagrantup.com).
 
 # Install
 
