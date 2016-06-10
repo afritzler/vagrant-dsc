@@ -4,7 +4,10 @@ Single node Cassandra 2.2.6 (Datastax Community Edition) with OpsCenter and othe
 
 # Prerequisites
 
-The only thing you will need is [VirtualBox](https://www.virtualbox.org) and [Vagrant](https://www.vagrantup.com).
+The only things you will need are
+* [VirtualBox](https://www.virtualbox.org)
+* [Vagrant](https://www.vagrantup.com)
+* 3GB of free RAM or you decrease the VM RAM settings via `export CFG_MEMSIZE=2048`
 
 # Install
 
